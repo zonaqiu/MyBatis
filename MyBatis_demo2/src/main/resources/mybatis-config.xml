@@ -21,6 +21,8 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="org/mybatis/example/BlogMapper.xml"/>
+<!--        以包为单位引入映射文件-->
+        <package name="com.atguigu.mybatis.mapper"/>
+<!--        <mapper resource="org/mybatis/example/BlogMapper.xml"/>-->
     </mappers>
 </configuration>
